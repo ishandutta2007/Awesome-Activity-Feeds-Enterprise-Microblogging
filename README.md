@@ -32,77 +32,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global enterprise social software and social intranet sector is estimated at **$22B–$27B**, projected to surpass **$50B–$99B** by the early 2030s growing at a **17%–18% CAGR**. The market is **moderately fragmented yet tiered**: tech giants (Microsoft, Salesforce, Meta) hold concentrated platform dominance through ecosystem bundling, while specialized standalone vendors (Simpplr, Interact, Blink) compete vigorously for niche enterprise employee experience (EXP) and frontline worker engagement, preventing a single winner-take-all outcome.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **Microsoft Viva Engage**
-
-  **Enterprise social network** within Microsoft 365. **Pricing**: **Community and conversation features are available to all Microsoft 365 or Office 365 enterprise and frontline plan users without a separate license**; premium features (campaigns, Copilot in Engage) require **Microsoft Viva Suite** license . **Free tier**: Included with M365/Office 365. **Best for**: Microsoft-centric organizations wanting enterprise social without additional licensing—**trade-off**: premium AI and campaign features require Viva Suite.
-
-
-
-- **Workplace from Meta**
-
-  **Enterprise social network** with familiar social interface. **Pricing**: **Starting at ~$4.00/month** per Software Advice listing . **Free tier**: Trial available. **Best for**: organizations wanting a Facebook-like employee experience—**note**: Meta announced Workplace will be discontinued; verify current status before evaluating.
-
-
-
-- **Slack**
-
-  **Channel-based messaging** with social feed capabilities. **Pricing**: **Free** (90-day history, limited integrations); **Pro**; **Business+**; **Enterprise+**. **Free tier**: Yes, limited. **Best for**: teams wanting real-time messaging with social features—**trade-off**: not a dedicated enterprise social network; free tier deletes data after one year .
-
-
-
-- **Salesforce Chatter**
-
-  **Enterprise social collaboration** within Salesforce. **Pricing**: **Free for all Salesforce users**; non-Salesforce users **$15/user/month** . **Free tier**: Yes, for Salesforce users. **Best for**: Salesforce customers wanting social collaboration tied to CRM records—**trade-off**: limited appeal outside Salesforce ecosystem.
-
-
-
-- **Chanty**
-
-  **Team chat** with social features. **Pricing**: **Free plan**; **Business $3/user/month** (annual) or **$4 monthly**; **50% discount for nonprofits and education** . **Free tier**: Yes. **Best for**: small teams wanting affordable team chat with social elements—**trade-off**: not a full enterprise social network.
-
-
-
-- **Jostle**
-
-  **Employee intranet** with people directory and news. **Pricing**: **Starting at ~$2.50/month** per Software Advice . **Free tier**: Trial available. **Best for**: SMBs wanting a simple, people-centric intranet.
-
-
-
-- **Zoho Feeds**
-
-  **Social feed** within Zoho ecosystem. **Pricing**: Included with Zoho Workplace/ecosystem. **Free tier**: Limited. **Best for**: Zoho users wanting activity feeds within their existing tools.
-
-
-
-- **Simpplr**
-
-  **AI-powered employee experience platform** with intranet and communications. **Pricing**: **Quote-only, volume-based**; no public price list; **14-day trial** (limited spaces); discounts start at **500+ employees** . **Free tier**: Trial only. **Best for**: enterprises wanting AI-native intranet with social feed features—**trade-off**: no public pricing; sales-led evaluation.
-
-
-
-- **Interact**
-
-  **Intranet software** with social features and analytics. **Pricing**: Quote-only. **Free tier**: None. **Best for**: mid-market to enterprise intranets with strong communications focus.
-
-
-
-- **Blink**
-
-  **Frontline worker communication** platform with feed. **Pricing**: Quote-only. **Free tier**: Trial available. **Best for**: organizations with frontline workers wanting mobile-first communication.
+| Company / Product | Organization Scale (Valuation / Revenue) | Starting Tier Pricing | Free Tier / Trial Limits | Description & Key Focus |
+| :--- | :--- | :--- | :--- | :--- |
+| **Microsoft Viva Engage** | ~$3.1T Market Cap / ~$245B ARR (Microsoft) | Included in M365 Business Basic ($6.00/user/mo); Premium features via Viva Communications bundle at $2.00/user/mo | Included with M365 license; 30-day free trial (up to 25 seats) via M365 admin center for premium modules | Enterprise social network and storyline feeds deeply integrated with Microsoft 365, Teams, and Copilot. |
+| **Workplace from Meta** | ~$1.5T Market Cap / ~$165B ARR (Meta) | ~$4.00/user/month (Historical base tier) | 30-day free trial (Historical; platform fully discontinued as of May 2026) | Social network experience modeled after Facebook for workplace collaboration and internal feeds. |
+| **Slack** (Salesforce) | ~$330B Market Cap / ~$38B ARR (Salesforce) | $8.75/user/month (Pro plan billed monthly, $7.25 billed annually) | Free forever plan: 90 days of searchable message and file history, 1:1 huddles, up to 10 integrations | Channel-based collaboration platform with persistent message streams, activity canvases, and social huddles. |
+| **Salesforce Chatter** | ~$330B Market Cap / ~$38B ARR (Salesforce) | Free with standard CRM license; $15.00/user/month (Standalone Chatter Plus) | Free forever plan: Up to 5,000 Chatter Free licenses per organization (profiles, status feeds, groups, and file sharing without CRM data access) | Enterprise social collaboration embedded natively inside Salesforce CRM objects, feeds, and workflows. |
+| **Zoho Connect / Feeds** | ~$1.4B ARR / ~$10B–$15B Estimated Valuation (Zoho) | $1.00/user/month (Enterprise tier billed annually) or $3.00/user/month (Workplace Standard) | Free forever plan: Up to 5 users (basic feeds, channels, team collaboration, and 5 GB storage per user) | Corporate social feeds, intranet walls, and team channels natively integrated within the Zoho productivity ecosystem. |
+| **Simpplr** | ~$450M–$550M Valuation / $175M Total Funding | ~$4.00–$8.00/user/month (Mid-market contract baseline, quote-based) | 14-day free trial (curated sandbox environment, limited user spaces) | AI-powered modern employee intranet and social communication engine designed to unify company updates and sentiment. |
+| **Interact** | ~$100M–$150M PE Valuation / ~$25M–$35M ARR | ~$8.00/user/month (Mid-market starting tier, annual commitment) | 30-day free trial (enterprise sandbox environment for evaluation) | Enterprise social intranet software offering multi-channel news publishing, social feeds, and workforce analytics. |
+| **Blink** | ~$100M Valuation / ~$15M–$25M ARR ($73M Funding) | $3.75/user/month (Core tier billed annually) or $4.50/month | 14-day free trial (full access to frontline employee feed, chat, and hub) | Mobile-first employee app and activity feed purpose-built for deskless and frontline workforces. |
+| **Chanty** | ~$30M ARR (Bootstrapped) | $3.00/user/month (Business tier billed annually) or $4.00/month | Free forever plan: Up to 5 users, unlimited message history, 20 GB team storage, 1:1 video calls, up to 10 integrations | Team collaboration platform combining channel communication, social feed updates, and built-in Kanban task management. |
+| **Jostle** | ~$12.5M ARR / ~$6M Funding | $2.50/user/month (Base employee tier, billed annually) | 30-day free trial (full platform access for team evaluation) | People-centric employee intranet emphasizing visual news feeds, employee recognition, discussions, and org directories. |
 
 
 
