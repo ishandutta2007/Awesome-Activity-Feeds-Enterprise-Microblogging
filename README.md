@@ -176,7 +176,7 @@ Contributions are welcome! Help us expand and maintain this index:
 
 1. 🍴 **Fork** this repository.
 2. 🌿 Create a branch for your addition (`git checkout -b feature/add-platform-name`).
-3. 📝 Update `README.md` following the established tabular or list format (include starting pricing, free limits, and open-source star badges).
+3. 📝 Update `README.md` following the established tabular or list format (include starting pricing, free limits, and open-source Stars_Badges).
 4. 🚀 Push your branch and open a **Pull Request**.
 
 Please refer to the curated lists repository at [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more great developer resources!
